@@ -37,7 +37,7 @@
 		EBA2AA3D1AD0657F00076940 /* SwiftTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA2AA421AD0657F00076940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA2AA431AD0657F00076940 /* SwiftTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTodoTests.swift; sourceTree = "<group>"; };
-		EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableController.swift; sourceTree = "<group>"; };
+		EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoTableController.swift; path = ../TodoTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,6 @@
 		EBA2AA1F1AD0657F00076940 = {
 			isa = PBXGroup;
 			children = (
-				EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */,
 				EBA2AA2A1AD0657F00076940 /* SwiftTodo */,
 				EBA2AA401AD0657F00076940 /* SwiftTodoTests */,
 				EBA2AA291AD0657F00076940 /* Products */,
@@ -80,6 +79,7 @@
 		EBA2AA2A1AD0657F00076940 /* SwiftTodo */ = {
 			isa = PBXGroup;
 			children = (
+				EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */,
 				EBA2AA2D1AD0657F00076940 /* AppDelegate.swift */,
 				EBA2AA2F1AD0657F00076940 /* ViewController.swift */,
 				EBA2AA311AD0657F00076940 /* Main.storyboard */,
