@@ -3,7 +3,7 @@
 //  SwiftTodo
 //
 //  Created by Oritex-Macbook-Pro on 2015. 4. 5..
-//  Copyright (c) 2015년 yyg. All rights reserved.
+//  Copyright (c) 2015년 YYG. All rights reserved.
 //
 
 import UIKit

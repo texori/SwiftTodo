@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB41BAF01AD103BE0028BB39 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = EB41BAEF1AD103BE0028BB39 /* readme.md */; };
+		EB41BAF21AD107B90028BB39 /* AddTodoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB41BAF11AD107B90028BB39 /* AddTodoTableController.swift */; };
 		EBA2AA2E1AD0657F00076940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2AA2D1AD0657F00076940 /* AppDelegate.swift */; };
-		EBA2AA301AD0657F00076940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2AA2F1AD0657F00076940 /* ViewController.swift */; };
 		EBA2AA331AD0657F00076940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA2AA311AD0657F00076940 /* Main.storyboard */; };
 		EBA2AA351AD0657F00076940 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA2AA341AD0657F00076940 /* Images.xcassets */; };
 		EBA2AA381AD0657F00076940 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA2AA361AD0657F00076940 /* LaunchScreen.xib */; };
-		EBA2AA441AD0657F00076940 /* SwiftTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2AA431AD0657F00076940 /* SwiftTodoTests.swift */; };
 		EBA2AA4E1AD06CE200076940 /* TodoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +27,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB41BAEF1AD103BE0028BB39 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		EB41BAF11AD107B90028BB39 /* AddTodoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTodoTableController.swift; path = ../AddTodoTableController.swift; sourceTree = "<group>"; };
 		EBA2AA281AD0657F00076940 /* SwiftTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA2AA2C1AD0657F00076940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA2AA2D1AD0657F00076940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBA2AA2F1AD0657F00076940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBA2AA321AD0657F00076940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBA2AA341AD0657F00076940 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EBA2AA371AD0657F00076940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EBA2AA3D1AD0657F00076940 /* SwiftTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBA2AA421AD0657F00076940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBA2AA431AD0657F00076940 /* SwiftTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTodoTests.swift; sourceTree = "<group>"; };
 		EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoTableController.swift; path = ../TodoTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +60,8 @@
 		EBA2AA1F1AD0657F00076940 = {
 			isa = PBXGroup;
 			children = (
+				EB41BAEF1AD103BE0028BB39 /* readme.md */,
 				EBA2AA2A1AD0657F00076940 /* SwiftTodo */,
-				EBA2AA401AD0657F00076940 /* SwiftTodoTests */,
 				EBA2AA291AD0657F00076940 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,9 +78,9 @@
 		EBA2AA2A1AD0657F00076940 /* SwiftTodo */ = {
 			isa = PBXGroup;
 			children = (
+				EB41BAF11AD107B90028BB39 /* AddTodoTableController.swift */,
 				EBA2AA4D1AD06CE200076940 /* TodoTableController.swift */,
 				EBA2AA2D1AD0657F00076940 /* AppDelegate.swift */,
-				EBA2AA2F1AD0657F00076940 /* ViewController.swift */,
 				EBA2AA311AD0657F00076940 /* Main.storyboard */,
 				EBA2AA341AD0657F00076940 /* Images.xcassets */,
 				EBA2AA361AD0657F00076940 /* LaunchScreen.xib */,
@@ -94,23 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				EBA2AA2C1AD0657F00076940 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EBA2AA401AD0657F00076940 /* SwiftTodoTests */ = {
-			isa = PBXGroup;
-			children = (
-				EBA2AA431AD0657F00076940 /* SwiftTodoTests.swift */,
-				EBA2AA411AD0657F00076940 /* Supporting Files */,
-			);
-			path = SwiftTodoTests;
-			sourceTree = "<group>";
-		};
-		EBA2AA411AD0657F00076940 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBA2AA421AD0657F00076940 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,9 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA2AA301AD0657F00076940 /* ViewController.swift in Sources */,
 				EBA2AA4E1AD06CE200076940 /* TodoTableController.swift in Sources */,
+				EB41BAF01AD103BE0028BB39 /* readme.md in Sources */,
 				EBA2AA2E1AD0657F00076940 /* AppDelegate.swift in Sources */,
+				EB41BAF21AD107B90028BB39 /* AddTodoTableController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +208,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA2AA441AD0657F00076940 /* SwiftTodoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTodo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftTodo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +393,7 @@
 				EBA2AA491AD0657F00076940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBA2AA4A1AD0657F00076940 /* Build configuration list for PBXNativeTarget "SwiftTodoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +402,7 @@
 				EBA2AA4C1AD0657F00076940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
